@@ -1,0 +1,13 @@
+.todo-enter, .todo-leave-active {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.todo-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.todo-enter, .todo-leave {
+  transition: opacity 0.5s, transform 0.5s ease-out;
+}
